@@ -14,12 +14,14 @@ require: where/where.sc
 require: number/number.sc
     module = sys.zb-common
 
+require: car/carBrand.sc
+    module = sys.zb-common
 
 require: dateTime/dateTime.js
     module = sys.zb-common
     
 require: dateTime/dateTime.sc
-  module = sys.zb-common
+    module = sys.zb-common
 
 require: functions/integration.js
 require: functions/functions.js
@@ -31,5 +33,8 @@ require: scenarios/generalCommunication/request.sc
 require: scenarios/generalCommunication/response.sc
 require: scenarios/thematic/request.sc
 require: scenarios/thematic/response.sc
+
+require: forTests/1.sc
+
 
 
